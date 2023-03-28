@@ -1,0 +1,446 @@
+*,
+*::before,
+*::after 
+  box-sizing: border-box
+
+$primary-color: #007bff
+$base-background-color: #B0F560
+
+ul[class],
+ol[class] 
+  padding: 0
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd 
+  margin: 0
+
+
+body 
+  min-height: 100vh
+  scroll-behavior: smooth
+  text-rendering: optimizeSpeed
+  line-height: 1.5
+
+
+ul[class],
+ol[class] 
+  list-style: none
+
+
+a:not([class]) 
+  text-decoration-skip-ink: auto
+
+
+img 
+  max-width: 100%
+  display: block
+
+
+article > * + * 
+  margin-top: 1em
+
+
+input,
+button,
+textarea,
+select 
+  font: inherit
+
+
+@media (prefers-reduced-motion: reduce) 
+  * 
+    animation-duration: 0.01ms !important
+    animation-iteration-count: 1 !important
+    transition-duration: 0.01ms !important
+    scroll-behavior: auto !important
+  
+
+html
+    font-family: 'Raleway', sans-serif
+
+body 
+    background-color: #f2f2f2
+button
+    text-transform: uppercase
+.classic-button 
+    width: 267px
+    height: 63px
+    border: 0px solid
+    border-radius: 32px
+    background-color: black
+    text-transform: uppercase
+    color: white
+.about-page-gradient
+    background-image: url('/img/logos about copy.png')
+    background-repeat: no-repeat
+    background-attachment: fixed
+    background-size: cover
+    height: 100vh
+    color: white
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+    &__wrapper 
+        width: 100%
+        height: 100%
+        padding-top: 10%
+        background: linear-gradient(0deg, rgba(10, 33, 130, 0.538707) 3.27%, rgba(13, 21, 50, 0.922886) 71.34%)
+        & p
+            font-size: 25px
+            font-weight: 500
+            line-height: 29px
+            text-align: center
+            margin-bottom: 40px
+            mix-blend-mode: normal
+            opacity: 0.8
+        & h1
+            font-size: 59px
+            line-height: 68px
+            text-align: center
+            margin-bottom: 46px
+        &__btn-video
+            color: white
+            & span
+                padding-left: 6%
+    &__btn
+        display: flex
+        justify-content: center
+#btn-catalog
+    display: flex
+    align-items: center
+    background-color: $base-background-color
+    border: 0px
+    border-radius: 32px 
+    margin-right: 20px
+    width: 228px
+    height: 63px
+    & img
+        margin: 16px 25px 16px 30px
+#btn-video 
+    display: flex
+    align-items: center
+    padding: 0
+    background-color: transparent
+    border: 1px solid rgba(255, 255, 255, 0.2467)
+    border-radius: 32px 
+    margin-right: 20px
+    width: 234px
+    height: 63px
+.SMART-FMCG__wrapper
+    position: relative
+    display: flex
+    margin-bottom: 70px
+    &__left
+        display: flex
+        flex-direction: column
+        width: 50%
+        height: auto
+        position: relative
+        &__img-top
+            position: absolute
+            width: 467px
+            height: 498px
+            z-index: 2
+            top: 44px   
+            left: 70px
+        &__img-middle
+            position: absolute
+            width: 362px
+            height: 381px
+            z-index: 1
+            top: 397px
+            left: 348px
+        &__block-bottom
+            background-color: $base-background-color
+            position: absolute
+            width: 420px
+            height: 498px
+            border-radius: 33px
+            z-index: 0
+            top: 148px
+            left: 217px
+    &__right
+        display: flex
+        flex-direction: column
+        gap: 48px
+        padding-top: 80px
+        padding-left: 104px
+        & h2
+            font-weight: 700
+            font-size: 56px
+            line-height: 66px
+        & p
+            font-weight: 500
+            font-size: 20px
+            line-height: 23px
+        &__block-image
+            width: 561px
+            height: 165px
+            background-color: #EAEAEA
+            border-radius: 35px
+
+.about-benefits
+    margin-bottom: 40px
+    &__top-text
+        text-align: center
+        & h2 
+            font-size: 56px
+            line-height: 66px
+            margin-bottom: 23px
+        & p 
+            font-size: 20px
+            line-height: 23px
+            margin-bottom: 50px
+    &__bottom-blocks
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        grid-gap: 30px 0px
+        justify-items: center
+        margin: 0px 50px 0px 50px
+.cards 
+    width: 637px
+    height: 214px
+    background: #FFFFFF
+    box-shadow: 0px 14px 18px rgba(8, 8, 8, 0.083998)
+    border-radius: 19px
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+    position: relative
+    padding: 33px 44px 23px 37px
+    &:hover
+        background-color: $base-background-color
+    & img
+        position: absolute
+        right: 5%
+        top: 15%
+.about-form 
+    margin-bottom: 78px
+    &__wrapper
+        margin: 0px 58px 0px 58px
+        height: 388px
+        background: #FFFFFF;
+        box-shadow: 0px 14px 18px rgba(8, 8, 8, 0.083998)
+        border-radius: 35px
+        display: flex
+        &__left
+            display: grid
+            grid-template-areas: "a a c" "b b c" "b b c"
+            padding: 46px 15px 46px 62px
+            & h2
+                grid-area: a
+                font-size: 38px
+                line-height: 45px
+            & p 
+                grid-area: b
+                font-size: 16px
+                line-height: 19px
+            & img 
+                grid-area: c
+        &__right
+            display: flex
+            align-items: center
+            padding-left: 104px
+
+.form-tittle
+    margin-right: 95px
+    & h2
+        font-size: 56px
+        line-height: 66px
+        margin-bottom: 16pxgir
+    & p 
+        font-size: 20px
+        line-height: 23px
+.form-group
+    display: grid 
+    grid-template-areas: "input-left-icon"
+    width: 100%
+    height: 57.17px
+    margin-bottom: 20px
+    &__input
+        background: #FFFFFF
+        border: 1px solid #B2B2B2
+        border-radius: 10px
+        padding-left: 2rem
+        grid-area: input-left-icon/input-left-icon
+        width: 100%
+        &-icon
+            display: flex
+            align-items: center
+            justify-content: center
+            grid-area: input-left-icon
+            width: 2.2em
+.icon-form
+            width: 0.875em
+
+.btn-form
+    background-color: $base-background-color
+    border: 0px
+    border-radius: 32px 
+    width: 228px
+    height: 63px
+    padding: 0
+.checkbox
+    margin-bottom: 26px
+    & label
+        font-size: 16px
+        line-height: 19px
+        display: flex
+        align-items: center
+    & input[type="checkbox"]
+        width: 29px
+        height: 29px
+        background: #FFFFFF
+        border: 1px solid #000000
+        border-radius: 6px
+        margin-right: 12px
+.form-border
+    border: 1px solid #E5E5E5
+    margin-left: 3.4%
+.about-main-line
+    margin-bottom: 43px
+    &__tittle h2 
+        font-size: 56px
+        line-height: 66px
+        text-align: center
+        margin-bottom: 23px
+    &__tittle p 
+        font-size: 20px
+        line-height: 23px
+        text-align: center
+        margin-bottom: 44px
+    &__block-wrapper
+        display: flex
+        justify-content: center
+        height: 633px
+        gap: 34px
+    &__block-left
+        background: linear-gradient(312.38deg, #98FF85 3.07%, #FDE535 37.1%, #FFFD9C 68.06%)
+        box-shadow: 0px 14px 18px rgba(8, 8, 8, 0.083998)
+        border-radius: 35px
+        position: relative
+        overflow: hidden
+        width: 637px
+        height: 633px
+        padding: 60px 0px 0px 61px
+        & h2 
+            font-size: 38px
+            line-height: 45px
+            margin-bottom: 20px
+        & p 
+            font-size: 20px
+            line-height: 23px
+            margin-bottom: 43px
+        & img
+            position: absolute
+            height: 500px
+            right: 0
+            bottom: 0
+    &__block-right
+        background: linear-gradient(312.38deg, #FF85D9 2.03%, #35FDDA 36.04%, #CAFFE3 66.77%)
+        box-shadow: 0px 14px 18px rgba(8, 8, 8, 0.083998)
+        border-radius: 35px
+        position: relative
+        width: 637px
+        height: 633px
+        padding: 60px 0px 0px 61px
+        & h2 
+            font-size: 38px
+            line-height: 45px
+            margin-bottom: 20px
+        & p 
+            font-size: 20px
+            line-height: 23px
+            margin-bottom: 59px
+        & img
+            position: absolute
+            height: 500px
+            right: 0
+            bottom: 0
+.about-catalog
+    margin-left: 58px
+    margin-right: 58px
+    margin-bottom: 43px
+    &__wrapper
+            display: flex
+            justify-content: center
+            border: 1px solid #979797
+            border-radius: 35px
+            &__left-block
+                width: 642px
+                height: 454px
+                position: relative
+                padding: 56px 0px 0px 73px
+                margin-right: 100px
+                background: #B0F560
+                border-radius: 35px
+                & img
+                    position: absolute
+                    bottom: 0
+                    right: 0
+                & h2 
+                    font-size: 38px
+                    line-height: 45px
+                    margin-bottom: 46px
+            &__right-block
+                display: flex
+                flex-direction: column
+                justify-content: space-around
+                width: 642px
+                height: 454px
+                padding-right: 3%
+            &-icon-block
+                display: flex
+                align-items: flex-start
+.our-adv-icon 
+    margin-right: 15px
+.slider
+    display: flex
+    justify-content: center
+.about-slider__button-block
+    display: flex
+    align-items: center
+    justify-content: space-between
+.slider__arrow
+    width: 65px
+    height: 65px
+    background: #B0F560
+    border-radius: 100px
+    border: none
+    position: absolute
+    z-index: 2
+.slider__arrow_left
+    left: 5%
+    padding: 0px
+.slider__arrow_right
+    right: 5%
+    padding: 0px
+.slider-arrow
+    margin: auto
+.slider__item
+    position: relative
+    &__elements
+        position: absolute
+        display: flex
+        bottom: 10%
+        left: 10%
+        & img
+            margin-right: 10px
+        & p 
+            font-weight: 700
+            font-size: 18px
+            line-height: 21px
+            color: #FFFFFF

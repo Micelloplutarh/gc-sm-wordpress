@@ -1,0 +1,692 @@
+/* line 1, ../../../../../gc-sm.com/sass/style_about.sass */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* line 9, ../../../../../gc-sm.com/sass/style_about.sass */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* line 14, ../../../../../gc-sm.com/sass/style_about.sass */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* line 31, ../../../../../gc-sm.com/sass/style_about.sass */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* line 38, ../../../../../gc-sm.com/sass/style_about.sass */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* line 43, ../../../../../gc-sm.com/sass/style_about.sass */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* line 47, ../../../../../gc-sm.com/sass/style_about.sass */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* line 52, ../../../../../gc-sm.com/sass/style_about.sass */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* line 56, ../../../../../gc-sm.com/sass/style_about.sass */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* line 64, ../../../../../gc-sm.com/sass/style_about.sass */
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* line 71, ../../../../../gc-sm.com/sass/style_about.sass */
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 74, ../../../../../gc-sm.com/sass/style_about.sass */
+body {
+  background-color: #f2f2f2;
+}
+
+/* line 76, ../../../../../gc-sm.com/sass/style_about.sass */
+button {
+  text-transform: uppercase;
+}
+
+/* line 78, ../../../../../gc-sm.com/sass/style_about.sass */
+.classic-button {
+  width: 267px;
+  height: 63px;
+  border: 0px solid;
+  border-radius: 32px;
+  background-color: black;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* line 86, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-page-gradient {
+  background-image: url("/img/logos about copy.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/* line 96, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-page-gradient__wrapper {
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+  background: linear-gradient(0deg, rgba(10, 33, 130, 0.538707) 3.27%, rgba(13, 21, 50, 0.922886) 71.34%);
+}
+
+/* line 101, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-page-gradient__wrapper p {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 40px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+/* line 109, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-page-gradient__wrapper h1 {
+  font-size: 59px;
+  line-height: 68px;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+/* line 114, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-page-gradient__wrapper__btn-video {
+  color: white;
+}
+
+/* line 116, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-page-gradient__wrapper__btn-video span {
+  padding-left: 6%;
+}
+
+/* line 118, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-page-gradient__btn {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 121, ../../../../../gc-sm.com/sass/style_about.sass */
+#btn-catalog {
+  display: flex;
+  align-items: center;
+  background-color: #B0F560;
+  border: 0px;
+  border-radius: 32px;
+  margin-right: 20px;
+  width: 228px;
+  height: 63px;
+}
+
+/* line 130, ../../../../../gc-sm.com/sass/style_about.sass */
+#btn-catalog img {
+  margin: 16px 25px 16px 30px;
+}
+
+/* line 132, ../../../../../gc-sm.com/sass/style_about.sass */
+#btn-video {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2467);
+  border-radius: 32px;
+  margin-right: 20px;
+  width: 234px;
+  height: 63px;
+}
+
+/* line 142, ../../../../../gc-sm.com/sass/style_about.sass */
+.SMART-FMCG__wrapper {
+  position: relative;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+/* line 146, ../../../../../gc-sm.com/sass/style_about.sass */
+.SMART-FMCG__wrapper__left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+
+/* line 152, ../../../../../gc-sm.com/sass/style_about.sass */
+.SMART-FMCG__wrapper__left__img-top {
+  position: absolute;
+  width: 467px;
+  height: 498px;
+  z-index: 2;
+  top: 44px;
+  left: 70px;
+}
+
+/* line 159, ../../../../../gc-sm.com/sass/style_about.sass */
+.SMART-FMCG__wrapper__left__img-middle {
+  position: absolute;
+  width: 362px;
+  height: 381px;
+  z-index: 1;
+  top: 397px;
+  left: 348px;
+}
+
+/* line 166, ../../../../../gc-sm.com/sass/style_about.sass */
+.SMART-FMCG__wrapper__left__block-bottom {
+  background-color: #B0F560;
+  position: absolute;
+  width: 420px;
+  height: 498px;
+  border-radius: 33px;
+  z-index: 0;
+  top: 148px;
+  left: 217px;
+}
+
+/* line 175, ../../../../../gc-sm.com/sass/style_about.sass */
+.SMART-FMCG__wrapper__right {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-top: 80px;
+  padding-left: 104px;
+}
+
+/* line 181, ../../../../../gc-sm.com/sass/style_about.sass */
+.SMART-FMCG__wrapper__right h2 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px;
+}
+
+/* line 185, ../../../../../gc-sm.com/sass/style_about.sass */
+.SMART-FMCG__wrapper__right p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+/* line 189, ../../../../../gc-sm.com/sass/style_about.sass */
+.SMART-FMCG__wrapper__right__block-image {
+  width: 561px;
+  height: 165px;
+  background-color: #EAEAEA;
+  border-radius: 35px;
+}
+
+/* line 195, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-benefits {
+  margin-bottom: 40px;
+}
+
+/* line 197, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-benefits__top-text {
+  text-align: center;
+}
+
+/* line 199, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-benefits__top-text h2 {
+  font-size: 56px;
+  line-height: 66px;
+  margin-bottom: 23px;
+}
+
+/* line 203, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-benefits__top-text p {
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 50px;
+}
+
+/* line 207, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-benefits__bottom-blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px 0px;
+  justify-items: center;
+  margin: 0px 50px 0px 50px;
+}
+
+/* line 213, ../../../../../gc-sm.com/sass/style_about.sass */
+.cards {
+  width: 637px;
+  height: 214px;
+  background: #FFFFFF;
+  box-shadow: 0px 14px 18px rgba(8, 8, 8, 0.083998);
+  border-radius: 19px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 33px 44px 23px 37px;
+}
+
+/* line 224, ../../../../../gc-sm.com/sass/style_about.sass */
+.cards:hover {
+  background-color: #B0F560;
+}
+
+/* line 226, ../../../../../gc-sm.com/sass/style_about.sass */
+.cards img {
+  position: absolute;
+  right: 5%;
+  top: 15%;
+}
+
+/* line 230, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-form {
+  margin-bottom: 78px;
+}
+
+/* line 232, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-form__wrapper {
+  margin: 0px 58px 0px 58px;
+  height: 388px;
+  background: #FFFFFF;
+  box-shadow: 0px 14px 18px rgba(8, 8, 8, 0.083998);
+  border-radius: 35px;
+  display: flex;
+}
+
+/* line 239, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-form__wrapper__left {
+  display: grid;
+  grid-template-areas: "a a c" "b b c" "b b c";
+  padding: 46px 15px 46px 62px;
+}
+
+/* line 243, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-form__wrapper__left h2 {
+  grid-area: a;
+  font-size: 38px;
+  line-height: 45px;
+}
+
+/* line 247, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-form__wrapper__left p {
+  grid-area: b;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/* line 251, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-form__wrapper__left img {
+  grid-area: c;
+}
+
+/* line 253, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-form__wrapper__right {
+  display: flex;
+  align-items: center;
+  padding-left: 104px;
+}
+
+/* line 258, ../../../../../gc-sm.com/sass/style_about.sass */
+.form-tittle {
+  margin-right: 95px;
+}
+
+/* line 260, ../../../../../gc-sm.com/sass/style_about.sass */
+.form-tittle h2 {
+  font-size: 56px;
+  line-height: 66px;
+  margin-bottom: 16pxgir;
+}
+
+/* line 264, ../../../../../gc-sm.com/sass/style_about.sass */
+.form-tittle p {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+/* line 267, ../../../../../gc-sm.com/sass/style_about.sass */
+.form-group {
+  display: grid;
+  grid-template-areas: "input-left-icon";
+  width: 100%;
+  height: 57.17px;
+  margin-bottom: 20px;
+}
+
+/* line 273, ../../../../../gc-sm.com/sass/style_about.sass */
+.form-group__input {
+  background: #FFFFFF;
+  border: 1px solid #B2B2B2;
+  border-radius: 10px;
+  padding-left: 2rem;
+  grid-area: input-left-icon/input-left-icon;
+  width: 100%;
+}
+
+/* line 280, ../../../../../gc-sm.com/sass/style_about.sass */
+.form-group__input-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: input-left-icon;
+  width: 2.2em;
+}
+
+/* line 286, ../../../../../gc-sm.com/sass/style_about.sass */
+.icon-form {
+  width: 0.875em;
+}
+
+/* line 289, ../../../../../gc-sm.com/sass/style_about.sass */
+.btn-form {
+  background-color: #B0F560;
+  border: 0px;
+  border-radius: 32px;
+  width: 228px;
+  height: 63px;
+  padding: 0;
+}
+
+/* line 296, ../../../../../gc-sm.com/sass/style_about.sass */
+.checkbox {
+  margin-bottom: 26px;
+}
+
+/* line 298, ../../../../../gc-sm.com/sass/style_about.sass */
+.checkbox label {
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 303, ../../../../../gc-sm.com/sass/style_about.sass */
+.checkbox input[type="checkbox"] {
+  width: 29px;
+  height: 29px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  margin-right: 12px;
+}
+
+/* line 310, ../../../../../gc-sm.com/sass/style_about.sass */
+.form-border {
+  border: 1px solid #E5E5E5;
+  margin-left: 3.4%;
+}
+
+/* line 313, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-main-line {
+  margin-bottom: 43px;
+}
+
+/* line 315, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-main-line__tittle h2 {
+  font-size: 56px;
+  line-height: 66px;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+/* line 320, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-main-line__tittle p {
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+/* line 325, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-main-line__block-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 633px;
+  gap: 34px;
+}
+
+/* line 330, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-main-line__block-left {
+  background: linear-gradient(312.38deg, #98FF85 3.07%, #FDE535 37.1%, #FFFD9C 68.06%);
+  box-shadow: 0px 14px 18px rgba(8, 8, 8, 0.083998);
+  border-radius: 35px;
+  position: relative;
+  overflow: hidden;
+  width: 637px;
+  height: 633px;
+  padding: 60px 0px 0px 61px;
+}
+
+/* line 339, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-main-line__block-left h2 {
+  font-size: 38px;
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+
+/* line 343, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-main-line__block-left p {
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 43px;
+}
+
+/* line 347, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-main-line__block-left img {
+  position: absolute;
+  height: 500px;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 352, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-main-line__block-right {
+  background: linear-gradient(312.38deg, #FF85D9 2.03%, #35FDDA 36.04%, #CAFFE3 66.77%);
+  box-shadow: 0px 14px 18px rgba(8, 8, 8, 0.083998);
+  border-radius: 35px;
+  position: relative;
+  width: 637px;
+  height: 633px;
+  padding: 60px 0px 0px 61px;
+}
+
+/* line 360, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-main-line__block-right h2 {
+  font-size: 38px;
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+
+/* line 364, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-main-line__block-right p {
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 59px;
+}
+
+/* line 368, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-main-line__block-right img {
+  position: absolute;
+  height: 500px;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 373, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-catalog {
+  margin-left: 58px;
+  margin-right: 58px;
+  margin-bottom: 43px;
+}
+
+/* line 377, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-catalog__wrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #979797;
+  border-radius: 35px;
+}
+
+/* line 382, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-catalog__wrapper__left-block {
+  width: 642px;
+  height: 454px;
+  position: relative;
+  padding: 56px 0px 0px 73px;
+  margin-right: 100px;
+  background: #B0F560;
+  border-radius: 35px;
+}
+
+/* line 390, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-catalog__wrapper__left-block img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 394, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-catalog__wrapper__left-block h2 {
+  font-size: 38px;
+  line-height: 45px;
+  margin-bottom: 46px;
+}
+
+/* line 398, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-catalog__wrapper__right-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 642px;
+  height: 454px;
+  padding-right: 3%;
+}
+
+/* line 405, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-catalog__wrapper-icon-block {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* line 408, ../../../../../gc-sm.com/sass/style_about.sass */
+.our-adv-icon {
+  margin-right: 15px;
+}
+
+/* line 410, ../../../../../gc-sm.com/sass/style_about.sass */
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 413, ../../../../../gc-sm.com/sass/style_about.sass */
+.about-slider__button-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 417, ../../../../../gc-sm.com/sass/style_about.sass */
+.slider__arrow {
+  width: 65px;
+  height: 65px;
+  background: #B0F560;
+  border-radius: 100px;
+  border: none;
+  position: absolute;
+  z-index: 2;
+}
+
+/* line 425, ../../../../../gc-sm.com/sass/style_about.sass */
+.slider__arrow_left {
+  left: 5%;
+  padding: 0px;
+}
+
+/* line 428, ../../../../../gc-sm.com/sass/style_about.sass */
+.slider__arrow_right {
+  right: 5%;
+  padding: 0px;
+}
+
+/* line 431, ../../../../../gc-sm.com/sass/style_about.sass */
+.slider-arrow {
+  margin: auto;
+}
+
+/* line 433, ../../../../../gc-sm.com/sass/style_about.sass */
+.slider__item {
+  position: relative;
+}
+
+/* line 435, ../../../../../gc-sm.com/sass/style_about.sass */
+.slider__item__elements {
+  position: absolute;
+  display: flex;
+  bottom: 10%;
+  left: 10%;
+}
+
+/* line 440, ../../../../../gc-sm.com/sass/style_about.sass */
+.slider__item__elements img {
+  margin-right: 10px;
+}
+
+/* line 442, ../../../../../gc-sm.com/sass/style_about.sass */
+.slider__item__elements p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style_about.css.map */
