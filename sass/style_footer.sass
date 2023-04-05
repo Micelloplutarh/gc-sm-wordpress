@@ -1,0 +1,196 @@
+*,
+*::before,
+*::after 
+  box-sizing: border-box
+
+$primary-color: #007bff
+$base-background-color: #B0F560
+
+ul[class],
+ol[class] 
+  padding: 0
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd 
+  margin: 0
+
+
+body 
+  min-height: 100vh
+  scroll-behavior: smooth
+  text-rendering: optimizeSpeed
+  line-height: 1.5
+
+
+ul[class],
+ol[class] 
+  list-style: none
+
+
+a:not([class]) 
+  text-decoration-skip-ink: auto
+
+
+img 
+  max-width: 100%
+  display: block
+
+
+article > * + * 
+  margin-top: 1em
+
+
+input,
+button,
+textarea,
+select 
+  font: inherit
+
+
+@media (prefers-reduced-motion: reduce) 
+  * 
+    animation-duration: 0.01ms !important
+    animation-iteration-count: 1 !important
+    transition-duration: 0.01ms !important
+    scroll-behavior: auto !important
+  
+
+html
+    font-family: 'Raleway', sans-serif
+a
+    text-decoration: none
+    color: inherit
+.footer 
+    display: flex
+    justify-content: space-between
+    color: #fff
+    height: 351px
+    &__left
+        background: #202126
+        width: 33%
+        display: flex
+        flex-direction: column
+        justify-content: center
+        padding-left: 62px
+        &__pp
+            ont-weight: 500
+            font-size: 12px
+            line-height: 14px
+            text-decoration-line: underline
+            color: #B0F560
+
+        & img
+            width: 164px
+            height: 35px
+            margin-bottom: 35px
+        & h2
+            font-weight: 500
+            font-size: 20px
+            line-height: 23px
+            margin-bottom: 35px
+        & p 
+            font-weight: 500
+            font-size: 12px
+            line-height: 14px
+            text-decoration-line: underline
+            margin-bottom: 15px
+            &:last-child
+                font-size: 12px
+                line-height: 14px
+                text-decoration-line: underline
+                color: #7C8193
+
+
+    &__middle
+        display: flex
+        padding-top: 50px
+        justify-content: center
+        width: 34%
+        background: #2B2D36
+        &-menu
+            display: flex
+            flex-direction: column
+            gap: 98px
+            &-wrapper
+                display: grid
+                grid-template-columns: repeat(2, 1fr)
+                gap: 15px
+            &-item
+                display: flex
+                align-items: center
+                gap: 15px
+               
+            &-city
+                display: flex
+                gap: 6px
+
+                &-wrapper
+                    display: grid
+                    grid-template-columns: repeat(2, 1fr)
+                    gap: 15px
+    &__right
+        background: #202126
+        width: 33%
+        padding-left: 48px
+        display: flex
+        flex-direction: column
+        justify-content: space-evenly
+        gap: 12px
+        & h3 
+            font-weight: 700
+            font-size: 28px
+            line-height: 33px
+            margin-bottom: 10px
+        & img 
+            margin-right: 9px
+        &-link
+            display: flex
+            gap: 12px
+        &__tg-link
+            display: flex
+            background: #2B2D36
+            border-radius: 12px
+            width: 150px
+            height: 44px
+            align-items: center
+            padding-left: 9px
+            font-weight: 700
+            font-size: 14px
+            line-height: 16px
+        &__wa-link
+            display: flex
+            background: #2B2D36
+            border-radius: 12px
+            width: 150px
+            height: 44px
+            align-items: center
+            padding-left: 9px
+            font-weight: 700
+            font-size: 14px
+            line-height: 16px
+
+        &__social-link
+            display: flex
+            & p 
+                border: 1px solid #B0F560
+                border-radius: 12px
+                width: 38px
+                height: 34px
+                text-align: center
+                margin-right: 5px
+                padding-top: 5px
+.text-uppercase
+    text-transform: uppercase
