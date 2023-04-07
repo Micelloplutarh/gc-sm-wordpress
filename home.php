@@ -87,7 +87,7 @@ Template Post Type: post, page, product
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-1.svg" alt="">
         </div>
         <div class="block-cards__card-2 cards">
-            <h2>Гарантия на товар</h2>white
+            <h2>Гарантия на товар</h2>
             <p><br>Все товары закупаются у официальных<br>производителей. Работаем только с оригинальной<br>продукцией — это позволяет гарантировать<br>качество.</p>
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-2.svg" alt="">
         </div>
