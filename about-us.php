@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://kit.fontawesome.com/f8db2f4ee1.js" crossorigin="anonymous"></script>
-    <script src="/js/slider.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,700;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style_about.css">
-    <title>Document</title>
-</head>
-<body>
+<?php
+/*
+Template Name: about-us
+Template Post Type: post, page, product
+*/
+?>
+    <?php get_header(); ?>
     <section class="about-page-gradient">
         <div class="about-page-gradient__wrapper">
             <h1>О компании</h1>
@@ -143,15 +135,15 @@
             </div>
             <div class="about-catalog__wrapper__right-block">
                 <div class="about-catalog__wrapper-icon-block">
-                    <img class="our-adv-icon" src=".<?php bloginfo('template_url'); ?>/assets/icon/arrow-t.svg" alt="">
+                    <img class="our-adv-icon" src="<?php bloginfo('template_url'); ?>/assets/icon/arrow-t.svg" alt="">
                     <p>Каталог «SMART FMCG» включает в себя пятьдесят тысяч наименований продуктов, пользующихся неизменно высоким спросом.</p>
                 </div>
                 <div class="about-catalog__wrapper-icon-block">
-                    <img class="our-adv-icon" src=".<?php bloginfo('template_url'); ?>/assets/icon/arrow-t.svg" alt="">
+                    <img class="our-adv-icon" src="<?php bloginfo('template_url'); ?>/assets/icon/arrow-t.svg" alt="">
                     <p>Мы сотрудничаем с мировыми производителями косметики, продуктов питания и бытовой химии. Среди наших партнеров Mondelēz International, Wrigley Company, PepsiCo, Coca-Cola, «Невская косметика» и другие.</p>
                 </div>
                 <div class="about-catalog__wrapper-icon-block">
-                    <img class="our-adv-icon" src=".<?php bloginfo('template_url'); ?>/assets/icon/arrow-t.svg" alt="">
+                    <img class="our-adv-icon" src="<?php bloginfo('template_url'); ?>/assets/icon/arrow-t.svg" alt="">
                     <p>Для получения прайс-листа и уточнения условий сотрудничества свяжитесь с вашим персональным менеджером по телефону +7 (495) 971 39 99.шим персональным менеджером по телефону +7 (495) 142 36 51.</p>
                 </div>
             </div>
@@ -187,5 +179,4 @@
           </div>
 
     </section>
-</body>
-</html>
+        <?php get_footer(); ?>

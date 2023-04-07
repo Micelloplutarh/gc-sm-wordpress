@@ -1,75 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-
-ul[class],
-ol[class] {
-  list-style: none;
-}
-
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
-article > * + * {
-  margin-top: 1em;
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-html {
-  font-family: 'Raleway', sans-serif;
-}
 
 .main-contacts {
   background: linear-gradient(9.73deg, #010425 -25.64%, #092387 16.96%, #4D5EB3 55.29%, #AB66CF 96.61%);
@@ -116,7 +45,7 @@ html {
   padding: 33px 40px 33px 40px;
 }
 
-.contacts {
+.page-contacts {
   height: 595px;
   display: flex;
   border-radius: 35px;
@@ -126,51 +55,51 @@ html {
   margin-bottom: 31px;
 }
 
-.contacts-wrapper {
+.page-contacts-wrapper {
   display: flex;
   height: 100%;
 }
 
-.contacts__info {
+.page-contacts__info {
   padding-top: 46px;
 }
 
-.contacts__info h2 {
+.page-contacts__info h2 {
   font-size: 28px;
   line-height: 33px;
   margin-bottom: 47px;
 }
 
-.contacts__info p {
+.page-contacts__info p {
   font-size: 20px;
   line-height: 23px;
   margin-bottom: 37px;
 }
 
-.contacts__info span {
+.page-contacts__info span {
   font-weight: 500;
   font-size: 20px;
 }
 
-.contacts .map {
+.page-contacts .map {
   width: 60%;
   margin-right: 53px;
   position: relative;
 }
 
-.contacts .map iframe {
+.page-contacts .map iframe {
   border-radius: 35px;
   width: 100%;
 }
 
-.contacts__info__list-item {
+.page-contacts__info__list-item {
   display: flex;
   align-items: center;
   gap: 20px;
   margin-bottom: 11px;
 }
 
-.contacts__info__list-item__geo {
+.page-contacts__info__list-item__geo {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -178,7 +107,7 @@ html {
   margin-left: 10px;
 }
 
-.contacts-wrapper__tabs {
+.page-contacts-wrapper__tabs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
