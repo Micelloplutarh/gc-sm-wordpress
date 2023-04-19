@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -69,6 +70,12 @@ select {
 
 html {
   font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", STHeiti, "华文细黑", sans-serif;
+  color: #666;
+  font-size: 14px;
 }
 
 ol,

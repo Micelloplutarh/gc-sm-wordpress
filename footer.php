@@ -12,26 +12,24 @@
     <section class="footer">
         <div class="footer__left">
             <a href="/index.html"><img src="<?php bloginfo('template_url'); ?>/assets/icon/smart-fmcg.svg" alt=""></a>
-            <h2 class="text-uppercase">ГРУППА КОМПАНИЙ<br>«SMART FMCG»</h2>
+            <h2 class="text-uppercase">ГРУППА КОМПАНИЙ<br> «SMART FMCG»</h2>
             <p class="footer__left__pp">Privacy Policy</p>
-            <p>© 2020 SMART FMCG company. Все права<br>защищены.</p>
+            <p>© 2020 SMART FMCG company. Все права<br> защищены.</p>
         </div>
         <div class="footer__middle">
             <div class="footer__middle-menu">
                 <div class="footer__middle-menu-wrapper text-uppercase">
                     <div class="footer__middle-menu-item ">
                         <img src="<?php bloginfo('template_url'); ?>/assets/icon/arrow-color.svg" alt="">
-                        <p>О компании</p>
-                        <a href="/about-us.html"></a>
+                        <a href="/about-us">О компании</a>
                     </div>
                     <div class="footer__middle-menu-item">
                         <img src="<?php bloginfo('template_url'); ?>/assets/icon/arrow-color.svg" alt="">
-                        <a href="/contacts.html"></a>
-                        <p>контакты</p>
+                        <a href="/contacts">контакты</a>
                     </div>
                     <div class="footer__middle-menu-item">
                         <img src="<?php bloginfo('template_url'); ?>/assets/icon/arrow-color.svg" alt="">
-                        <a href="/how-we-work.html">как мы работаем</a>
+                        <a href="/how-we-work">как мы работаем</a>
                     </div>
                     <div class="footer__middle-menu-item">
                         <img src="<?php bloginfo('template_url'); ?>/assets/icon/arrow-color.svg" alt="">

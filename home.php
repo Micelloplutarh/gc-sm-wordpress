@@ -23,11 +23,25 @@ Template Post Type: post, page, product
             <div class="img-trucks"><img src="<?php bloginfo('template_url'); ?>/assets/img/truck-vehicle-with-trailers-in-background_342744-1297 (1)-min.png" alt=""></div>
             <div class="brand-catalog-block">
                 <h3>190+</h3>
-                <span class="brand-text-sp">производителей<br>в каталоге</span>
+                <span class="brand-text-sp">производителей<br> в каталоге</span>
             </div>
         </div>
     </div>
-        <div class="block-front-gradient-brands">
+		<div class="carousel-wrap">
+  <div class="owl-carousel">
+    <div class="item"><img src="<?php bloginfo('template_url'); ?>/assets/icon/calve-1.svg"></div>
+    <div class="item"><img src="<?php bloginfo('template_url'); ?>/assets/icon/Coca-Cola.svg"></div>
+    <div class="item"><img src="<?php bloginfo('template_url'); ?>/assets/icon/Dove.svg"></div>
+    <div class="item"><img src="<?php bloginfo('template_url'); ?>/assets/icon/gillette-venus.svg"></div>
+    <div class="item"><img src="<?php bloginfo('template_url'); ?>/assets/icon/gillette.svg"></div>
+    <div class="item"><img src="<?php bloginfo('template_url'); ?>/assets/icon/Henkel.svg"></div>
+    <div class="item"><img src="<?php bloginfo('template_url'); ?>/assets/icon/HG.svg"></div>
+    <div class="item"><img src="<?php bloginfo('template_url'); ?>/assets/icon/Mondelez.svg"></div>
+    <div class="item"><img src="<?php bloginfo('template_url'); ?>/assets/icon/P&G.svg"></div>
+    <div class="item"><img src="<?php bloginfo('template_url'); ?>/assets/icon/Unilever.svg"></div>
+  </div>
+</div>
+<!--         <div class="block-front-gradient-brands">
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/calve-1.svg" alt="">
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/Coca-Cola.svg" alt="">
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/Dove.svg" alt="">
@@ -38,15 +52,15 @@ Template Post Type: post, page, product
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/Mondelez.svg" alt="">
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/P&G.svg" alt="">
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/Unilever.svg" alt="">
-        </div>
+        </div> -->
     </section>
     <section class="about-us__block">
         <div class="about-us__block__left">
             <div class="about-us__block__left__about">
                 <div class="about-us__block__left__about__text">
                 <h2>О компании</h2>
-                <p>Группа компаний «SMART FMCG»<br>является лидером в отрасли <br>оптовых продаж товаров<br>повседневного потребления.</p>
-                <button class="classic-button">learn more</button>
+                <p>Группа компаний «SMART FMCG»<br> является лидером в отрасли <br> оптовых продаж товаров<br> повседневного потребления.</p>
+                <button class="classic-button">Подробнее</button>
                 </div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/img/truck-for-home-page.svg" alt="">
             </div>
@@ -55,7 +69,7 @@ Template Post Type: post, page, product
             <div class="about-us__block__right__image">
                 <p>Более<b> 100,000 наименований </b>товаров</p>
                 <img src="<?php bloginfo('template_url'); ?>/assets/img/products-from-two-block.svg" alt="">
-                <p>Кондитерские изделия, напитки, детские товары, <br>косметика, бытовая химия и товары для животных.</p>
+                <p>Кондитерские изделия, напитки, детские товары, <br> косметика, бытовая химия и товары для животных.</p>
             </div>
         </div>
     </section>
@@ -63,8 +77,8 @@ Template Post Type: post, page, product
         <div class="our-advantages__block__left">
             <div class="our-advantages__block__left__text">
                 <h2>Преимущества</h2>
-                <p>Мы работаем с B2B сектором по России и странам<br>СНГ. Нашими поставщиками являются всемирно<br>известные Российские и зарубежные производители.</p>
-                <button class="classic-button">learn more</button>
+                <p>Мы работаем с B2B сектором по России и странам<br> СНГ. Нашими поставщиками являются всемирно<br> известные Российские и зарубежные производители.</p>
+                <button class="classic-button">Подробнее</button>
             </div>
         </div>
         <div class="brdr"></div>
@@ -82,23 +96,23 @@ Template Post Type: post, page, product
     </section>
     <section class="block-cards">
         <div class="block-cards__card-1 cards">
-            <h2>Работаем напрямую с<br>производителями</h2>
-            <p><br>У нас заключены контракты с производителями,<br>перечисленными на нашем сайте. Это позволяет<br>нам продавать продукцию без каких-либо<br>посреднических наценок.</p>
+            <h2>Работаем напрямую с<br> производителями</h2>
+            <p><br> У нас заключены контракты с производителями,<br> перечисленными на нашем сайте. Это позволяет<br> нам продавать продукцию без каких-либо<br> посреднических наценок.</p>
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-1.svg" alt="">
         </div>
         <div class="block-cards__card-2 cards">
             <h2>Гарантия на товар</h2>
-            <p><br>Все товары закупаются у официальных<br>производителей. Работаем только с оригинальной<br>продукцией — это позволяет гарантировать<br>качество.</p>
+            <p><br> Все товары закупаются у официальных<br> производителей. Работаем только с оригинальной<br> продукцией — это позволяет гарантировать<br> качество.</p>
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-2.svg" alt="">
         </div>
         <div class="block-cards__card-3 cards">
             <h2>Широкий ассортимент</h2>
-            <p><br>В каталоге более 50.000 наименований товаров.<br>С легкостью укомплектуем и отправим заказ в<br>нужном объеме.</p>
+            <p><br> В каталоге более 100.000 наименований товаров.<br> С легкостью укомплектуем и отправим заказ в<br> нужном объеме.</p>
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-3.svg" alt="">
         </div>
         <div class="block-cards__card-4 cards">
             <h2>Документы и сертификаты</h2>
-            <p><br>Работаем официально — с заказом получаете<br>полный пакет документов по сделке и сертификаты<br>качества на продукцию от производителя.</p>
+            <p><br> Работаем официально — с заказом получаете<br> полный пакет документов по сделке и сертификаты<br> качества на продукцию от производителя.</p>
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-4.svg" alt="">
         </div>
     </section>
@@ -113,7 +127,7 @@ Template Post Type: post, page, product
 
     <div class="block-geography-item__item-catalog">
         <div class="block-geography-item__item-catalog__left-wrapper">
-        <h2>Более <b>50,000<br>товаров</b> в каталоге</h2>
+        <h2>Более <b>100,000<br> товаров</b> в каталоге</h2>
     <button class="classic-button"><img class="imgbtn" src="<?php bloginfo('template_url'); ?>/assets/icon/download 2 white.svg" alt="">каталог</button>
         </div>
         <div class="block-geography-item__item-catalog__right-block">
@@ -126,18 +140,18 @@ Template Post Type: post, page, product
             <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35915.53265853857!2d37.83137330430066!3d55.76335232228168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414acbabd918f9d3%3A0x20e47883c02e9d18!2z0KDQtdGD0YLQvtCyLCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0Lsu!5e0!3m2!1sru!2sru!4v1679585485561!5m2!1sru!2sru" width="70%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
             <div class="home-page-contacts__info">
                 <h2>Контакты</h2>
-                <p>Группа компаний<br>
+                <p>Группа компаний<br> 
                     «SMART FMCG»</p>
-                <span class="home-page-contacts__info__list-item"><img class="icon" src="<?php bloginfo('template_url'); ?>/assets/icon/phone.svg" alt=""> +9 715 440 627 21</span>
+                <span class="home-page-contacts__info__list-item aifs"><img class="icon" src="<?php bloginfo('template_url'); ?>/assets/icon/phone.svg" alt="">8 (800) 201-39-99<br> 8 (977) 971-39-99<br> 8 (495) 971-39-99</span>
                 <span class="home-page-contacts__info__list-item item-bottom"><img class="icon" src="<?php bloginfo('template_url'); ?>/assets/icon/mail.svg" alt=""> info@smart-fmcg.com</span>
-                <span class="home-page-contacts__info__list-item__geo"><img class="icon" src="<?php bloginfo('template_url'); ?>/assets/icon/pin.svg" alt=""> Россия, Москва</span>
+                <span class="home-page-contacts__info__list-item__geo aifs"><img class="icon" src="<?php bloginfo('template_url'); ?>/assets/icon/pin.svg" alt=""> г. Москва, БЦ «VIKTORY PARK PLAZA» <br> КМ МЖД Киевское 5-й д. 1, стр. 1 этаж 1, помещ.17/1</span>
             </div>
         </div>
     </section>
     <section class="form">
         <div class="form-tittle">
-            <h2>Остались<br>вопросы?</h2>
-            <p>Заполните поля формы и<br>отправьте заявку.<br>Наш менеджер свяжется с<br>Вами в ближайшее время.</p>
+            <h2>Остались<br> вопросы?</h2>
+            <p>Заполните поля формы и<br> отправьте заявку.<br> Наш менеджер свяжется с<br> Вами в ближайшее время.</p>
         </div>
         <form>
             <div class="form-group form-name">
@@ -172,5 +186,4 @@ Template Post Type: post, page, product
          </form>
         </section>
         <?php get_footer(); ?>
-
 
