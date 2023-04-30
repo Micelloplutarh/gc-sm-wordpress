@@ -12,9 +12,9 @@
     <section class="footer">
         <div class="footer__left">
             <a href="/index.html"><img src="<?php bloginfo('template_url'); ?>/assets/icon/smart-fmcg.svg" alt=""></a>
-            <h2 class="text-uppercase">ГРУППА КОМПАНИЙ<br> «SMART FMCG»</h2>
-            <p class="footer__left__pp">Privacy Policy</p>
+           <div><p class="footer__left__pp">Политика конфиденциальности</p>
             <p>© 2020 SMART FMCG company. Все права<br> защищены.</p>
+            </div> 
         </div>
         <div class="footer__middle">
             <div class="footer__middle-menu">
@@ -29,29 +29,33 @@
                     </div>
                     <div class="footer__middle-menu-item">
                         <img src="<?php bloginfo('template_url'); ?>/assets/icon/arrow-color.svg" alt="">
-                        <a href="/how-we-work">как мы работаем</a>
+                        <a href="/how-we-work">условия сотрудничества</a>
                     </div>
                     <div class="footer__middle-menu-item">
                         <img src="<?php bloginfo('template_url'); ?>/assets/icon/arrow-color.svg" alt="">
-                        <p>продукция</p>
+                        <a href="/how-we-work">продукция</a>
                     </div>
                 </div>
                 <div class="footer__middle-menu-city-wrapper">
                     <div class="footer__middle-menu-city">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/icon/geo-color.svg" alt="">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/icon/geo-color-w.svg" alt="">
                         <p>Турция, Стамбул</p>
                     </div>
                     <div class="footer__middle-menu-city">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/icon/geo-color.svg" alt="">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/icon/geo-color-w.svg" alt="">
                         <p>ОАЭ, Дубай</p>
                     </div>
                     <div class="footer__middle-menu-city">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/icon/geo-color.svg" alt="">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/icon/geo-color-w.svg" alt="">
                         <p>Киргизия, Бишкек</p>
                     </div>
                     <div class="footer__middle-menu-city">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/icon/geo-color.svg" alt="">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/icon/geo-color-w.svg" alt="">
                         <p>Казахстан, Алматы</p>
+                    </div>
+                    <div class="footer__middle-menu-city">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/icon/geo-color-w.svg" alt="">
+                        <p>Росссия, Москва</p>
                     </div>
                 </div>
             </div>
@@ -59,13 +63,9 @@
         <div class="footer__right">
             <div class="footer__right-text-block">
                 <h3>+7 (495) 971 39 99</h3>
-                <p>info@smart-fmcg.com</p>
+                <p>info@gc-sm.com</p>
             </div>
         <div class="footer__right-link">
-            <div class="footer__right__tg-link">
-                <img src="<?php bloginfo('template_url'); ?>/assets/icon/telegram.svg" alt="">
-                <p>Telegram</p>
-            </div>
             <div class="footer__right__wa-link">
                 <img src="<?php bloginfo('template_url'); ?>/assets/icon/whatsapp 2.svg" alt="">
                 <p>WhatsApp</p>

@@ -15,12 +15,12 @@ Template Post Type: post, page, product
     </div>
         <div class="block-front-gradient-right">
             <div class="block-front-gradient-right-social">
-                <span>f</span>
+                <span><img src="<?php bloginfo('template_url'); ?>/assets/icon/whatsapp-.svg"></span>
                 <div></div>
                 <span>In</span>
             </div>
-            <div class="img-logist"><img src="<?php bloginfo('template_url'); ?>/assets/img/long-shot-woman-logistic-center (1)-min.png" alt=""></div>
-            <div class="img-trucks"><img src="<?php bloginfo('template_url'); ?>/assets/img/truck-vehicle-with-trailers-in-background_342744-1297 (1)-min.png" alt=""></div>
+            <div class="img-logist"><img src="<?php bloginfo('template_url'); ?>/assets/img/long-shot-woman-logistic-center.webp" alt=""></div>
+            <div class="img-trucks"><img src="<?php bloginfo('template_url'); ?>/assets/img/truck-vehicle-with-trailers-in-background_342744-1297 (1)-min.webp" alt=""></div>
             <div class="brand-catalog-block">
                 <h3>190+</h3>
                 <span class="brand-text-sp">производителей<br> в каталоге</span>
@@ -59,7 +59,7 @@ Template Post Type: post, page, product
             <div class="about-us__block__left__about">
                 <div class="about-us__block__left__about__text">
                 <h2>О компании</h2>
-                <p>Группа компаний «SMART FMCG»<br> является лидером в отрасли <br> оптовых продаж товаров<br> повседневного потребления.</p>
+                <p>Компания «SMART FMCG»<br> является лидером в отрасли <br> оптовых продаж товаров<br> повседневного потребления.</p>
                 <button class="classic-button">Подробнее</button>
                 </div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/img/truck-for-home-page.svg" alt="">
@@ -78,7 +78,7 @@ Template Post Type: post, page, product
             <div class="our-advantages__block__left__text">
                 <h2>Преимущества</h2>
                 <p>Мы работаем с B2B сектором по России и странам<br> СНГ. Нашими поставщиками являются всемирно<br> известные Российские и зарубежные производители.</p>
-                <button class="classic-button">Подробнее</button>
+                <a href="/about-us#benefits"><button class="classic-button">Подробнее</button></a>
             </div>
         </div>
         <div class="brdr"></div>
@@ -96,22 +96,22 @@ Template Post Type: post, page, product
     </section>
     <section class="block-cards">
         <div class="block-cards__card-1 cards">
-            <h2>Работаем напрямую с<br> производителями</h2>
+            <h3>Работаем напрямую с<br> производителями</h3>
             <p><br> У нас заключены контракты с производителями,<br> перечисленными на нашем сайте. Это позволяет<br> нам продавать продукцию без каких-либо<br> посреднических наценок.</p>
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-1.svg" alt="">
         </div>
         <div class="block-cards__card-2 cards">
-            <h2>Гарантия на товар</h2>
+            <h3>Гарантия на товар</h3>
             <p><br> Все товары закупаются у официальных<br> производителей. Работаем только с оригинальной<br> продукцией — это позволяет гарантировать<br> качество.</p>
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-2.svg" alt="">
         </div>
         <div class="block-cards__card-3 cards">
-            <h2>Широкий ассортимент</h2>
+            <h3>Широкий ассортимент</h3>
             <p><br> В каталоге более 100.000 наименований товаров.<br> С легкостью укомплектуем и отправим заказ в<br> нужном объеме.</p>
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-3.svg" alt="">
         </div>
         <div class="block-cards__card-4 cards">
-            <h2>Документы и сертификаты</h2>
+            <h3>Документы и сертификаты</h3>
             <p><br> Работаем официально — с заказом получаете<br> полный пакет документов по сделке и сертификаты<br> качества на продукцию от производителя.</p>
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-4.svg" alt="">
         </div>
@@ -122,7 +122,7 @@ Template Post Type: post, page, product
             <p>Сотрудничаем со всемирно известными производителями</p>
             <img src="<?php bloginfo('template_url'); ?>/assets/icon/Line 2.svg" alt="">
         </div>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
 <lottie-player src="<?php bloginfo('template_url'); ?>/assets/json/lottieanim.json" background="#f2f2f2"  speed="1"   hover loop  autoplay></lottie-player>
 
     <div class="block-geography-item__item-catalog">
@@ -131,7 +131,7 @@ Template Post Type: post, page, product
     <button class="classic-button"><img class="imgbtn" src="<?php bloginfo('template_url'); ?>/assets/icon/download 2 white.svg" alt="">каталог</button>
         </div>
         <div class="block-geography-item__item-catalog__right-block">
-            <img src="<?php bloginfo('template_url'); ?>/assets/img/Group 1410.png" alt="">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/Group 1410.webp" alt="">
         </div>
     </div>
     </section>
@@ -140,11 +140,11 @@ Template Post Type: post, page, product
             <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35915.53265853857!2d37.83137330430066!3d55.76335232228168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414acbabd918f9d3%3A0x20e47883c02e9d18!2z0KDQtdGD0YLQvtCyLCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0Lsu!5e0!3m2!1sru!2sru!4v1679585485561!5m2!1sru!2sru" width="70%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
             <div class="home-page-contacts__info">
                 <h2>Контакты</h2>
-                <p>Группа компаний<br> 
-                    «SMART FMCG»</p>
-                <span class="home-page-contacts__info__list-item aifs"><img class="icon" src="<?php bloginfo('template_url'); ?>/assets/icon/phone.svg" alt="">8 (800) 201-39-99<br> 8 (977) 971-39-99<br> 8 (495) 971-39-99</span>
-                <span class="home-page-contacts__info__list-item item-bottom"><img class="icon" src="<?php bloginfo('template_url'); ?>/assets/icon/mail.svg" alt=""> info@smart-fmcg.com</span>
-                <span class="home-page-contacts__info__list-item__geo aifs"><img class="icon" src="<?php bloginfo('template_url'); ?>/assets/icon/pin.svg" alt=""> г. Москва, БЦ «VIKTORY PARK PLAZA» <br> КМ МЖД Киевское 5-й д. 1, стр. 1 этаж 1, помещ.17/1</span>
+                <span>Компания<br> 
+                    «SMART FMCG»</span>
+                <span class="home-page-contacts__info__list-item aifs"><img class="icon icon-phone" src="<?php bloginfo('template_url'); ?>/assets/icon/phone.svg" alt=""><span class="phone-wrap-space"> 8 (800) 201-39-99<br> 8 (977) 971-39-99<br> 8 (495) 971-39-99</span></span>
+                <span class="home-page-contacts__info__list-item item-bottom"><img class="icon" src="<?php bloginfo('template_url'); ?>/assets/icon/mail.svg" alt=""> info@gc-sm.com</span>
+                <span class="home-page-contacts__info__list-item__geo aifs"><img class="icon" src="<?php bloginfo('template_url'); ?>/assets/icon/pin.svg" alt=""> г. Москва, БЦ «VIKTORY PARK PLAZA»</span>
             </div>
         </div>
     </section>
@@ -153,37 +153,8 @@ Template Post Type: post, page, product
             <h2>Остались<br> вопросы?</h2>
             <p>Заполните поля формы и<br> отправьте заявку.<br> Наш менеджер свяжется с<br> Вами в ближайшее время.</p>
         </div>
-        <form>
-            <div class="form-group form-name">
-               <input class="form-group__input" type="text" name="name" placeholder="Имя">
-               <div class="form-group__input-icon form-group__input-icon--left">
-                <img class="icon-form" src="<?php bloginfo('template_url'); ?>/assets/icon/user.svg" alt="">
-              </div>
-            </div>
-            <div class="form-ph-email">
-                <div class="form-group">
-                    <input class="form-group__input" type="tel" name="phone" placeholder="Телефон">
-                    <div class="form-group__input-icon form-group__input-icon--left">
-                        <img class="icon-form" src="<?php bloginfo('template_url'); ?>/assets/icon/phone-form.svg" alt="">
-                      </div>
-                </div>
-                <div class="form-group">
-                    <input class="form-group__input" type="email" name="email" placeholder="E-mail">
-                    <div class="form-group__input-icon form-group__input-icon--left">
-                        <img class="icon-form" src="<?php bloginfo('template_url'); ?>/assets/icon/mail-form.svg" alt="">
-                      </div>
-                </div>
-            </div>
-            <div class="form-message">
-               <textarea class="form-message__textarea" name="message" placeholder="Комментарий"></textarea>
-            </div>
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> <span>Я согласен на обработку персональных данных в соответствии с политикой конфиденциальности.</span> 
-                </label>
-            </div>
-            <button class="btn-form" type="submit">Отправить заявку</button>
-         </form>
+		<?php echo do_shortcode('[contact-form-7 id="24" title="Контактная форма 1"]'); ?>
         </section>
+		
         <?php get_footer(); ?>
 

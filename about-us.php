@@ -8,65 +8,66 @@ Template Post Type: post, page, product
     <section class="about-page-gradient">
         <div class="about-page-gradient__wrapper">
             <h1>О компании</h1>
-            <p>Группа компаний «SMART FMCG» основана в 2012 году.<br> Мы занимаемся оптовыми продажами товаров повседневного потребления от<br> всемирно известных Российских и зарубежных производителей.</p>
+            <p>Компания «SMART FMCG» основана в 2012 году.<br> Мы занимаемся оптовыми продажами товаров повседневного потребления от<br> всемирно известных Российских и зарубежных производителей.</p>
             <div class="about-page-gradient__btn">
             <button id="btn-catalog"><img src="<?php bloginfo('template_url'); ?>/assets/icon/download 2.svg" alt=""><span>КАТАЛОГ</span></button>
-            <button id="btn-video" class="about-page-gradient__wrapper__btn-video"><img src="<?php bloginfo('template_url'); ?>/assets/icon/Group 1402.svg" alt=""><span>ВИДЕО</span></button>
+            <!-- <button id="btn-video" class="about-page-gradient__wrapper__btn-video"><img src="<?php bloginfo('template_url'); ?>/assets/icon/Group 1402.svg" alt=""><span>ВИДЕО</span></button> -->
         </div>
     </div>
     </section>
     <section class="SMART-FMCG">
         <div class="SMART-FMCG__wrapper">
             <div class="SMART-FMCG__wrapper__left">
-                <div class="SMART-FMCG__wrapper__left__img-top"><img src="<?php bloginfo('template_url'); ?>/assets/img/trucks-center.png" alt=""></div>
-                <div class="SMART-FMCG__wrapper__left__img-middle"><img src="<?php bloginfo('template_url'); ?>/assets/img/woman-trucks.png" alt=""></div>
+                <div class="SMART-FMCG__wrapper__left__img-top"><img src="<?php bloginfo('template_url'); ?>/assets/img/trucks-center.webp" alt=""></div>
+                <div class="SMART-FMCG__wrapper__left__img-middle"><img src="<?php bloginfo('template_url'); ?>/assets/img/woman-trucks.webp" alt=""></div>
                 <div class="SMART-FMCG__wrapper__left__block-bottom">
                 </div>
             </div>
            
             <div class="SMART-FMCG__wrapper__right">
                 <h2>SMART FMCG</h2>
-                <p>ГК «SMART FMCG» — международный<br> поставщик товаров повседневного<br> потребления (FMCG) и лидер в секторе товаров<br> народного потребления. Компания<br> осуществляет экономическое взаимодействие<br> B2B, сотрудничает с юридическими лицами и<br> частными предпринимателями, работает с<br> резидентами и нерезидентами РФ согласно<br> Кодексу Таможенного Союза в странах СНГ.</p>
-                <button class="classic-button">как мы работаем</button>
+                <p>международный поставщик товаров повседневного потребления (FMCG) и лидер в секторе товаров народного потребления. Компания осуществляет экономическое взаимодействие B2B, сотрудничает с юридическими лицами и частными предпринимателями, работает с резидентами и нерезидентами РФ согласно Кодексу Таможенного Союза в странах СНГ.</p>
+                a href="/how-we-work"><button class="classic-button">Как мы работаем</button></a>
             <div class="SMART-FMCG__wrapper__right__block-image">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/products-image-from-about.png" alt="">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/products-image-from-about.webp" alt="">
             </div>
             </div>
     </div>
     </section>
     <section class="about-benefits">
             <div class="about-benefits__top-text">
+            <a name="benefits"></a>
                 <h2>Ваши выгоды</h2>
                 <p>Многочисленные партнеры доверяют нам благодаря качественному сервису и обширному ассортименту продукции.</p>
             </div>
             <div class="about-benefits__bottom-blocks">
                 <div class="cards">
-                    <h2>Лучшие цены</h2>
+                    <h3>Лучшие цены</h3>
                     <p><br> Большие объемы и долгосрочные партнерские<br> отношения с производителями гарантируют<br> лучшие цены на рынке.</p>
                     <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-5.svg" alt="">
                 </div>
                 <div class="cards">
-                    <h2>Широкий ассортимент</h2>
+                    <h3>Широкий ассортимент</h3>
                     <p><br> 100,000 продовольственных и<br> непродовольственных товаров российских и<br> иностранных производителей.</p>
                     <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-6.svg" alt="">
                 </div>
                 <div class="cards">
-                    <h2>Сопровождение сделки</h2>
+                    <h3>Сопровождение сделки</h3>
                     <p><br> Каждому клиенту выделяем персонального менеджера,<br> который поможет при формировании<br> заказа.</p>
                     <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-7.svg" alt="">
                 </div>
                 <div class="cards">
-                    <h2>Подтверждающие документы</h2>
+                    <h3>Подтверждающие документы</h3>
                     <p><br> Производители предоставляют сертификаты,<br> подтверждающие качество товаров.</p>
                     <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-8.svg" alt="">
                 </div>
                 <div class="cards">
-                    <h2>Собственные складские площади</h2>
-                    <p><br> Храним продукцию в наших складских<br> помещениях в соответствии с действующим<br> регламентом.</p>
+                    <h3>Собственные складские площади</h2>
+                    <p><br>Храним продукцию в наших складских <br>помещениях в соответствии с СанПиН.</p>
                     <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-9.svg" alt="">
                 </div>
                 <div class="cards">
-                    <h2>Собственный автопарк</h2>
+                    <h3>Собственный автопарк</h3>
                     <p><br> Компания «SMART FMCG» не занимается<br> перевозками, но помогает с транспортировкой<br> заказа до транспортной компании или склада.</p>
                     <img src="<?php bloginfo('template_url'); ?>/assets/icon/cards-10.svg" alt="">
                 </div>
@@ -76,7 +77,7 @@ Template Post Type: post, page, product
         <div class="about-form__wrapper">
             <div class="about-form__wrapper__left">
                     <h2>Начать<br> сотрудничать</h2>
-                    <p>Заполните форму справа,<br> позвоните по номеру <br> +7 (495)142 36 51 или напишите<br> электронное письмо по<br> адресу info@gc-sm.com.<br> Менеджер свяжется с <br> Вами в течение часа.</p>
+                    <p>Заполните форму ,<br> позвоните по номеру <br> +7 (495)142 36 51 или напишите<br> электронное письмо по<br> адресу info@gc-sm.com.<br> Менеджер свяжется с <br> Вами в течение часа.</p>
                     <img src="<?php bloginfo('template_url'); ?>/assets/img/about-form-img.svg" alt="">
             </div>
             <div class="form-border"></div>
@@ -115,21 +116,21 @@ Template Post Type: post, page, product
                 <div class="about-main-line__block-left">
                     <h2>Продовольственные<br> товары</h2>
                     <p>Бакалея, детское питание, чай, кофе,<br> кондитерские изделия, снековая<br> продукция, соки и воды.</p>
-                    <button class="classic-button">Как мы работаем</button>
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/about-img-food-left-block.png" alt="">
+                    <a href="/how-we-work"><button class="classic-button">как мы работаем</button></a>
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/about-img-food-left-block.webp" alt="">
                 </div>
                 <div class="about-main-line__block-right">
                     <h2>Непродовольственные товары</h2>
                     <p>Бытовая химия, косметика, средства<br> личной гигиены.</p>
-                    <button class="classic-button">Как мы работаем</button>
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/about-img-non-food-right.png" alt="">
+                    <a href="/how-we-work"><button class="classic-button">Как мы работаем</button></a>
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/about-img-non-food-right.webp" alt="">
                 </div>
             </div>
     </section>
     <section class="about-catalog">
         <div class="about-catalog__wrapper">
             <div class="about-catalog__wrapper__left-block">
-                <h2>Каталог ГК «SMART<br> FMCG»</h2>
+                <h2>Каталог<br> <br>«SMART FMCG»</h2>
                 <button class="classic-button">скачать</button>
                 <img src="<?php bloginfo('template_url'); ?>/assets/img/truck-for-home-page.svg" alt="">
             </div>
@@ -144,7 +145,7 @@ Template Post Type: post, page, product
                 </div>
                 <div class="about-catalog__wrapper-icon-block">
                     <img class="our-adv-icon" src="<?php bloginfo('template_url'); ?>/assets/icon/arrow-t.svg" alt="">
-                    <p>Для получения прайс-листа и уточнения условий сотрудничества свяжитесь с вашим персональным менеджером по телефону +7 (495) 971 39 99.</p>
+                    <p>Для получения прайс-листа и уточнения условий сотрудничества свяжитесь с вашим персональным менеджером по телефону<br> +7 (495) 971 39 99.</p>
                 </div>
             </div>
         </div>
@@ -154,19 +155,19 @@ Template Post Type: post, page, product
             <div class="slider">
                 <div class="about-slider__button-block">
                    <button class="slider__arrow slider__arrow_left"><img class="slider-arrow" src="<?php bloginfo('template_url'); ?>/assets/icon/icon-left-arrow.svg" alt=""></button>
-              <div class="slider__item"><img src="<?php bloginfo('template_url'); ?>/assets/img/WhatsApp-Image-2022-12-07-at-11.31.52.png">
+              <div class="slider__item"><img src="<?php bloginfo('template_url'); ?>/assets/img/WhatsApp-Image-2022-12-07-at-11.31.52.webp">
                 <div class="slider__item__elements">
                     <img src="<?php bloginfo('template_url'); ?>/assets/icon/slider-icon.svg" alt="">
                     <p>Делегация ГК «SMART FMCG» на выставке PROMFROM2023</p>
                 </div>
             </div>
-            <div class="slider__item"><img src="<?php bloginfo('template_url'); ?>/assets/img/WhatsApp-Image-2022-12-07-at-11.31.52.png">
+            <div class="slider__item"><img src="<?php bloginfo('template_url'); ?>/assets/img/WhatsApp-Image-2022-12-07-at-11.31.52.webp">
                 <div class="slider__item__elements">
                     <img src="<?php bloginfo('template_url'); ?>/assets/icon/slider-icon.svg" alt="">
                     <p>Делегация ГК «SMART FMCG» на выставке PROMFROM2023</p>
                 </div>
             </div>
-            <div class="slider__item"><img src="<?php bloginfo('template_url'); ?>/assets/img/WhatsApp-Image-2022-12-07-at-11.31.52.png">
+            <div class="slider__item"><img src="<?php bloginfo('template_url'); ?>/assets/img/WhatsApp-Image-2022-12-07-at-11.31.52.webp">
                 <div class="slider__item__elements">
                     <img src="<?php bloginfo('template_url'); ?>/assets/icon/slider-icon.svg" alt="">
                     <p>Делегация ГК «SMART FMCG» на выставке PROMFROM2023</p>
